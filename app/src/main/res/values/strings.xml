@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Second_Generation_House</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_text">Making your life easier!</string>
+    <string name="developed_by">Developed by Takers Team</string>
+    <string name="project_name">Smart Home</string>
+    <string name="enter_login">Username:</string>
+    <string name="enter_password">Password:</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

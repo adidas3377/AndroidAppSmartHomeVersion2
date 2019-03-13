@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.second_generation_house.Fragments.LightFragment">
+
+    <RelativeLayout
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="183dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context="com.mycom.countdowntimer.CountdownMainActivity$PlaceholderFragment">
+
+
+        <ProgressBar
+            android:id="@+id/progressBarLight"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="344dp"
+            android:layout_height="395dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:max="60"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/textViewHum"
+            android:layout_width="185sp"
+            android:layout_height="185sp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/style_textview_menu"
+            android:gravity="center"
+            android:text="0%"
+            android:fontFamily="@font/century_gothic_std_regular"
+            android:textColor="@color/main_black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
